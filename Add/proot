@@ -1,3 +1,0 @@
-#!/bin/sh
-  sysctl -w kernel.panic=3
-	exec /sbin/switch_root /target /sbin/init 

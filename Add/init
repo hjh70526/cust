@@ -1,5 +1,0 @@
-#!/bin/sh
-#clear variable and init ram
-
-	sysctl -w vm.drop_caches=3
-	exec /sbin/init
